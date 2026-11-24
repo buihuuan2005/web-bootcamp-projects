@@ -1,0 +1,68 @@
+.btn:hover,
+.nav-link:hover {
+  transform: translateY(-1px);
+}
+
+#skill .col-11.proficient {
+  box-shadow: 0 -4px 0 rgba(79, 70, 229, 1);
+}
+
+#skill .col-11.in-progress {
+  box-shadow: 0 -4px 0 rgba(14, 165, 233, 1);
+}
+
+#skill .col-11.upcoming {
+  box-shadow: 0 -4px 0 rgba(71, 85, 105, 1);
+}
+
+.proficient .card-header {
+  background-color: rgba(79, 70, 229, 1);
+  width: fit-content;
+  height: fit-content;
+  color: white;
+}
+
+.in-progress .card-header {
+  background-color: rgba(14, 165, 233, 1);
+  width: fit-content;
+  color: white;
+}
+
+.upcoming .card-header {
+  background-color: rgba(71, 85, 105, 1);
+  width: fit-content;
+  height: fit-content;
+  color: white;
+}
+
+.proficient .skill-tag {
+  border: 1.5px solid rgba(79, 70, 229, 1);
+  border-radius: 8px;
+  width: fit-content;
+  padding: 4px 12px;
+  margin: 2px;
+}
+
+.in-progress .skill-tag {
+  border: 1.5px solid rgba(14, 165, 233, 1);
+  border-radius: 8px;
+  width: fit-content;
+  padding: 4px 12px;
+  margin: 2px;
+}
+
+.upcoming .skill-tag {
+  border: 1.5px dashed rgba(71, 85, 105, 1);
+  border-radius: 8px;
+  width: fit-content;
+  padding: 4px 12px;
+  margin: 2px;
+}
+
+#copy {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  color: #555;
+}
